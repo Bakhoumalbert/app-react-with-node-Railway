@@ -12,7 +12,7 @@ app.use(express.static(path.resolve(__dirname, '../client/build')));
 
 // Pour Gérer les requêtes GET vers la route /api 
 app.get("/api", (req, res) => {
-    res.json({ message: "Hello from server!" });
+    res.json({ message: "Bonjour! Bienvenue sur mon site fullstack" });
   });
   
 // Pour les requêtes non traitées par le code précédent, ceci affiche l'appli React
